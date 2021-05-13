@@ -27,3 +27,8 @@ li a:hover {
 th 
 {color: black;
 background-color: lightgrey;}
+content
+{ color: white;
+  background-color: red;
+  opacity: 60%;
+  text-align: center;}
