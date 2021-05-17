@@ -1,8 +1,9 @@
 #title{
 	color: white;
-	background-color: red;
+	background-color:  #DC143C;
 	opacity: 60%;
 	text-align: center;
+  padding: 10px;
 }
 ul {
   list-style-type: none;
@@ -28,18 +29,25 @@ li a {
 li a:hover {
   background-color: #111;
 }
+.M{
+  background-color: #4CAF50;
+}
 #ending footer{
 	background-color: black; 
 	color:white;
 	text-align: right;
 }
 #hello{
-	text-align: center;
 	color: black;
 	height: auto;
+  background-color: #FF69B4;
+  padding: 20px;
 }
-#content
-{ color: white;
-  background-color: red;
-  opacity: 60%;
-  text-align: center;}
+#b{
+  text-align: center;
+}
+footer{
+  background-color: black;
+  color: white;
+  text-align: right;
+}
