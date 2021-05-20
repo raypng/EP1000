@@ -23,7 +23,72 @@ li a:hover {
   background-color: #111;
 }
 #sub1
-{font-size: 30px}
+{
+   margin: auto;
+  width: 60%;
+ 
+  background-color: #7CFC00; 
+}
+#sub2
+{
+  margin: auto;
+  width: 60%;
+  padding: 20px;
+  background-color: #aec6cf 
+}
 .W{
   background-color: #4CAF50;
+}
+#w2
+{
+   margin: auto;
+  width: 60%;
+  background-color: #aec6cf ;
+}
+#w3
+{
+   margin: auto;
+  width: 60%;
+  padding: 20px;
+  background-color: #aec6cf 
+}
+#w4
+{
+   margin: auto;
+  width: 60%;
+  padding: 20px;
+  background-color: #aec6cf 
+}
+#w5
+{
+   margin: auto;
+  width: 60%;
+  padding: 20px;
+  background-color: #aec6cf 
+}
+#e3
+{
+ margin: auto;
+ width: 60%;
+  background-color:  #7CFC00;
+}
+#e2
+{
+   margin: auto;
+ width: 60%;
+  background-color:  #7CFC00;
+}
+#tab
+{
+  margin: auto;
+  width: 60%;
+  padding: 20px;
+  background-color: #aec6cf 
+}
+#tt
+{
+  margin: auto;
+  width: 60%;
+  padding: 20px;
+  background-color: #aec6cf 
 }
