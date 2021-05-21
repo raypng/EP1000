@@ -1,3 +1,4 @@
+/*this is for the main page*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -10,18 +11,96 @@ li {
   float: left;
 }
 
-li a {
-  display: block;
+li a, .dropbtn {
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
+li a:hover, .dropm:hover .dropbtn {
   background-color: #111;
 }
+
+li.dropm {
+  display: inline-block;
+}
+
+.dropdown-a {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-a a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-a a:hover {background-color: #4CAF50;}
+
+.dropm:hover .dropdown-a {
+  display: block;
+}
+/*this is for the rest of the work*/
 .C{
   background-color: #4CAF50;
+}
+/*this is for the project nav*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropp:hover .dropbtn {
+  background-color: #111;
+}
+
+li.dropp {
+  display: inline-block;
+}
+
+.dropdown-b {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-b a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-b a:hover {background-color: #4CAF50;}
+
+.dropp:hover .dropdown-b {
+  display: block;
 }
