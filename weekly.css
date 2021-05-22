@@ -50,20 +50,6 @@ li.dropm {
   display: block;
 }
 /*this is for the rest of the work*/
-#sub1
-{
-   margin: auto;
-  width: 60%;
- 
-  background-color: #7CFC00; 
-}
-#sub2
-{
-  margin: auto;
-  width: 60%;
-  padding: 20px;
-  background-color: #aec6cf 
-}
 .W{
   background-color: #4CAF50;
 }
@@ -78,21 +64,21 @@ li.dropm {
    margin: auto;
   width: 60%;
   padding: 20px;
-  background-color: #aec6cf 
+  background-color: #aec6cf ;
 }
 #w4
 {
    margin: auto;
   width: 60%;
   padding: 20px;
-  background-color: #aec6cf 
+  background-color: #aec6cf ;
 }
 #w5
 {
    margin: auto;
   width: 60%;
   padding: 20px;
-  background-color: #aec6cf 
+  background-color: #aec6cf; 
 }
 #e3
 {
@@ -111,15 +97,38 @@ li.dropm {
   margin: auto;
   width: 60%;
   padding: 20px;
-  background-color: #aec6cf 
+  background-color: #aec6cf;
 }
 #tt
 {
   margin: auto;
   width: 60%;
   padding: 20px;
-  background-color: #aec6cf 
+  background-color: #aec6cf; 
 }
+/*this is for the images */
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
 /*this is for the project nav*/
 ul {
   list-style-type: none;
