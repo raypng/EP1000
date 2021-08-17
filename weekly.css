@@ -49,6 +49,7 @@ li.dropm {
 .dropm:hover .dropdown-a {
   display: block;
 }
+
 /*this is for the rest of the work*/
 .W{
   background-color: #4CAF50;
@@ -120,6 +121,7 @@ li.dropm {
   padding: 20px;
   background-color: #aec6cf; 
 }
+
 /*this is for the images */
 div.gallery {
   margin: 5px;
