@@ -81,6 +81,22 @@ footer{
   color: white;
   text-align: right;
 }
+
+#safe{
+   margin: auto;
+  width: 60%;
+  padding: 20px;
+  background-color: #aec6cf 
+
+}
+#s{
+  text-align: center;
+}
+footer{
+  background-color: black;
+  color: white;
+  text-align: right;
+}
 /*this is for proj nav*/
 ul {
   list-style-type: none;
