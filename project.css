@@ -125,3 +125,11 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+/* this is for the text*/
+#c{
+   margin: auto;
+  width: 60%;
+  padding: 20px;
+  background-color: #aec6cf 
+
+}
