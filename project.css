@@ -133,3 +133,11 @@ div.desc {
   background-color: #aec6cf 
 
 }
+/*for the heading*/
+#title{
+  color: white;
+  background-color:  #DC143C;
+  opacity: 60%;
+  text-align: center;
+  padding: 5px;
+}
